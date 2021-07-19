@@ -47,7 +47,7 @@
         "drupal/geolocation": "^3.2",
         "drupal/node_class": "^1.0@beta",
         "drupal/paragraphs": "^1.6",
-        "drupal/password_policy": "3.0.0-alpha5",
+        "drupal/password_policy": "3.0.0",
         "drupal/recaptcha": "^3.0",
         "drupal/remove_http_headers": "^1.0@RC",
         "drupal/search_exclude": "^1.2",

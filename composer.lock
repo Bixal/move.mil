@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e564d281e42349abf019b346492f09f",
+    "content-hash": "2e58ff229d85952e96623d11fa260797",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3683,30 +3683,30 @@
         },
         {
             "name": "drupal/password_policy",
-            "version": "3.0.0-alpha5",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/password_policy.git",
-                "reference": "8.x-3.0-alpha5"
+                "reference": "8.x-3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/password_policy-8.x-3.0-alpha5.zip",
-                "reference": "8.x-3.0-alpha5",
-                "shasum": "74f170caa739e886d2de0df27a479f94014e273f"
+                "url": "https://ftp.drupal.org/files/projects/password_policy-8.x-3.0.zip",
+                "reference": "8.x-3.0",
+                "shasum": "6fbc4fe40ab26ec19e5ca37aaaa676348dc7fddb"
             },
             "require": {
-                "drupal/core": "^8.5.0",
+                "drupal/core": "^8 || ^9",
                 "drupal/ctools": "^3.1"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.0-alpha5",
-                    "datestamp": "1559916365",
+                    "version": "8.x-3.0",
+                    "datestamp": "1625082607",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 },
                 "patches_applied": {
