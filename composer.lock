@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e564d281e42349abf019b346492f09f",
+    "content-hash": "d82a783830e52bf68a021ed100157f70",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -4175,29 +4175,29 @@
         },
         {
             "name": "drupal/uswds",
-            "version": "1.0.0-beta3",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/uswds.git",
-                "reference": "8.x-1.0-beta3"
+                "reference": "8.x-2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/uswds-8.x-1.0-beta3.zip",
-                "reference": "8.x-1.0-beta3",
-                "shasum": "f220e5edc916417c9215a54ac8fcd4247669a855"
+                "url": "https://ftp.drupal.org/files/projects/uswds-8.x-2.1.zip",
+                "reference": "8.x-2.1",
+                "shasum": "6a3682a53657d6eef9a33a95829f0b792b141e4b"
             },
             "require": {
-                "drupal/core": "~8.0"
+                "drupal/core": "^8.7.7 || ^9"
             },
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0-beta3",
-                    "datestamp": "1515004684",
+                    "version": "8.x-2.1",
+                    "datestamp": "1625858445",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -4223,7 +4223,7 @@
                     "homepage": "https://www.drupal.org/user/36590"
                 }
             ],
-            "description": "Drupal theme for the U.S. Web Design Standards library.",
+            "description": "Drupal theme for the Beta v2.0 U.S. Web Design Standards library.",
             "homepage": "https://www.drupal.org/project/uswds",
             "support": {
                 "source": "http://cgit.drupalcode.org/uswds",
@@ -12285,7 +12285,6 @@
         "drupal/node_class": 10,
         "drupal/remove_http_headers": 5,
         "drupal/stage_file_proxy": 15,
-        "drupal/uswds": 10,
         "drupal/drupal-extension": 20
     },
     "prefer-stable": true,

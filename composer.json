@@ -55,7 +55,7 @@
         "drupal/svg_image": "^1.9.0",
         "drupal/twig_field_value": "^2.0.0",
         "drupal/twig_tweak": "^2.9",
-        "drupal/uswds": "^1.0@beta",
+        "drupal/uswds": "^2.1@beta",
         "drupal/wysiwyg_template": "^2.1",
         "drush/drush": "^10.3",
         "phpoffice/phpspreadsheet": "1.18.0",
